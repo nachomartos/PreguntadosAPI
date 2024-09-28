@@ -1,6 +1,6 @@
 package com.preguntas.services.impl;
 
-import com.preguntas.PreguntaRepository;
+import com.preguntas.repository.PreguntaRepository;
 import com.preguntas.dto.request.PreguntaRequestDTO;
 import com.preguntas.entity.Pregunta;
 import com.preguntas.exceptions.custom.ResourceNotFoundException;

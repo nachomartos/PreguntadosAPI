@@ -1,7 +1,9 @@
 package com.preguntas.dto.request;
 
 import jakarta.validation.constraints.NotEmpty;
+import lombok.Data;
 
+@Data
 public class PreguntaRequestDTO {
     @NotEmpty
     private String enunciado;
@@ -10,14 +12,6 @@ public class PreguntaRequestDTO {
     }
 
     public PreguntaRequestDTO(String enunciado) {
-        this.enunciado = enunciado;
-    }
-
-    public String getEnunciado() {
-        return enunciado;
-    }
-
-    public void setEnunciado(String enunciado) {
         this.enunciado = enunciado;
     }
 }

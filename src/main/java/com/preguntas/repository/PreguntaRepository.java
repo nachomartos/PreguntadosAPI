@@ -1,4 +1,4 @@
-package com.preguntas;
+package com.preguntas.repository;
 
 import com.preguntas.entity.Pregunta;
 import org.springframework.data.jpa.repository.JpaRepository;
