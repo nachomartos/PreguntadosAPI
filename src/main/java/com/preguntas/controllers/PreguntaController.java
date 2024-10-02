@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import io.swagger.v3.oas.annotations.Operation;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:8080")
 @RequestMapping("api/v1/preguntas")
 public class PreguntaController {
 
